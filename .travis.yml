@@ -5,6 +5,7 @@ services:
 branches:
     only:
         - master
+        - main
 env:
    global:
     - DEST_ID=core
