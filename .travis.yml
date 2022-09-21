@@ -10,7 +10,7 @@ env:
    global:
     - DEST_ID=core
     - NSVER=7
-    - DOCKER_IMAGE=nethserver/makerpms:${NSVER}
+    - DOCKER_IMAGE=tbaile/makerpms:${NSVER}
     - >
         EVARS="
         -e DEST_ID
