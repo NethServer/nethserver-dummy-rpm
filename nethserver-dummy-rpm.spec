@@ -1,6 +1,6 @@
 Summary: NethServer Dummy RPM
 Name: nethserver-dummy-rpm
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
