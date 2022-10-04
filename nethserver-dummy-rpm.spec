@@ -1,6 +1,6 @@
 Summary: NethServer Dummy RPM
 Name: nethserver-dummy-rpm
-Version: 1.0.6
+Version: 1.0.7
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
@@ -29,6 +29,9 @@ rm -rf %{buildroot}
 %dir %{_nseventsdir}/%{name}-update
 
 %changelog
+* Tue Oct 04 2022 Tommaso Bailetti <tommaso.bailetti@nethesis.it> - 1.0.7-1
+- Enable RPM build on GitHub Actions - NethServer/dev#6700
+
 * Fri Sep 30 2022 Tommaso Bailetti <tommaso.bailetti@nethesis.it> - 1.0.6-1
 - Enable RPM build on GitHub Actions - NethServer/dev#6700
 
