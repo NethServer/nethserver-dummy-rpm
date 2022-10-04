@@ -11,7 +11,7 @@ jobs:
     env:
       dest_id: core
       nsver: 7
-      docker_image: nethserver/makerpms:7
+      docker_image: ghcr.io/nethserver/makerpms:7
     steps:
       - uses: actions/checkout@v3
         with:
